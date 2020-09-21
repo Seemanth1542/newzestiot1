@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="workspace" duration-ms="129" started-at="2020-07-04T12:11:54Z" finished-at="2020-07-04T12:11:54Z">
+    <groups>
+      <group name="smoke">
+        <method signature="testng2.spicejet()[pri:0, instance:testing.testng2@610694f1]" name="spicejet" class="testing.testng2"/>
+        <method signature="Testng1.relatives()[pri:0, instance:testing.Testng1@67b92f0a]" name="relatives" class="testing.Testng1"/>
+        <method signature="Testng3.bicycle()[pri:0, instance:testing.Testng3@72b6cbcc]" name="bicycle" class="testing.Testng3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="avileap" duration-ms="79" started-at="2020-07-04T12:11:54Z" finished-at="2020-07-04T12:11:54Z">
+      <class name="testing.testng2">
+        <test-method status="PASS" signature="flight()[pri:0, instance:testing.testng2@610694f1]" name="flight" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight -->
+        <test-method status="PASS" signature="indigo()[pri:0, instance:testing.testng2@610694f1]" name="indigo" duration-ms="3" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indigo -->
+        <test-method status="PASS" signature="spicejet()[pri:0, instance:testing.testng2@610694f1]" name="spicejet" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spicejet -->
+        <test-method status="PASS" signature="airasia()[pri:0, instance:testing.testng2@610694f1]" name="airasia" duration-ms="2" started-at="2020-07-04T17:41:54Z" depends-on-methods="testing.testng2.flight, testing.testng2.indigo" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airasia -->
+      </class> <!-- testing.testng2 -->
+      <class name="testing.Testng1">
+        <test-method status="PASS" signature="Hyderabad()[pri:0, instance:testing.Testng1@67b92f0a]" name="Hyderabad" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hyderabad -->
+        <test-method status="PASS" signature="halt()[pri:0, instance:testing.Testng1@67b92f0a]" name="halt" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halt -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="hostel()[pri:0, instance:testing.Testng1@67b92f0a]" name="hostel" duration-ms="6" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hostel -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="games()[pri:0, instance:testing.Testng1@67b92f0a]" name="games" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- games -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="shopping()[pri:0, instance:testing.Testng1@67b92f0a]" name="shopping" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="relatives()[pri:0, instance:testing.Testng1@67b92f0a]" name="relatives" duration-ms="3" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relatives -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="CAR()[pri:0, instance:testing.Testng1@67b92f0a]" name="CAR" duration-ms="3" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CAR -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testing.Testng1@67b92f0a]" name="refresh" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="restaurant()[pri:0, instance:testing.Testng1@67b92f0a]" name="restaurant" duration-ms="5" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurant -->
+        <test-method status="PASS" signature="Fuel()[pri:0, instance:testing.Testng1@67b92f0a]" name="Fuel" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fuel -->
+        <test-method status="PASS" signature="meetings()[pri:0, instance:testing.Testng1@67b92f0a]" name="meetings" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meetings -->
+        <test-method status="PASS" signature="Theatre()[pri:0, instance:testing.Testng1@67b92f0a]" name="Theatre" is-config="true" duration-ms="0" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Theatre -->
+      </class> <!-- testing.Testng1 -->
+    </test> <!-- avileap -->
+    <test name="testing" duration-ms="11" started-at="2020-07-04T12:11:54Z" finished-at="2020-07-04T12:11:54Z">
+      <class name="testing.Testng3">
+        <test-method status="PASS" signature="bicycle()[pri:0, instance:testing.Testng3@72b6cbcc]" name="bicycle" duration-ms="2" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bicycle -->
+        <test-method status="PASS" signature="car()[pri:0, instance:testing.Testng3@72b6cbcc]" name="car" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+      </class> <!-- testing.Testng3 -->
+      <class name="testing.Testng1">
+        <test-method status="PASS" signature="Warangal()[pri:0, instance:testing.Testng1@67b92f0a]" name="Warangal" is-config="true" duration-ms="10" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Warangal -->
+        <test-method status="PASS" signature="computer()[pri:0, instance:testing.Testng1@67b92f0a]" name="computer" is-config="true" duration-ms="1" started-at="2020-07-04T17:41:54Z" finished-at="2020-07-04T17:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- computer -->
+      </class> <!-- testing.Testng1 -->
+    </test> <!-- testing -->
+  </suite> <!-- workspace -->
+</testng-results>

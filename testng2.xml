@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="workspace1">
+  <test thread-count="6" name="avileap1">
+  
+  <groups>
+  
+  <run>
+  
+  <include name="smoke"/>
+  
+  
+  </run>
+  
+  
+  
+  </groups>
+  
+  
+  
+    <classes>
+      <class name="testing.Testng1"/>
+      <class name="testing.testng2"/>
+      <class name="testing.Testng3"/>
+     
+  
+      
+    </classes>
+    </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
